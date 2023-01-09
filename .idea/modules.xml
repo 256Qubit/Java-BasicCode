@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayTest/ArrayTest.iml" filepath="$PROJECT_DIR$/ArrayTest/ArrayTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicCode.iml" filepath="$PROJECT_DIR$/BasicCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basiccodetest2/Basiccodetest2.iml" filepath="$PROJECT_DIR$/Basiccodetest2/Basiccodetest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Student/Student.iml" filepath="$PROJECT_DIR$/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestStudent/TestStudent.iml" filepath="$PROJECT_DIR$/TestStudent/TestStudent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mArrayList/mArrayList.iml" filepath="$PROJECT_DIR$/mArrayList/mArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mString/mString.iml" filepath="$PROJECT_DIR$/mString/mString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/method/method.iml" filepath="$PROJECT_DIR$/method/method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moOp/moOp.iml" filepath="$PROJECT_DIR$/moOp/moOp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myIdeaTest/myIdeaTest.iml" filepath="$PROJECT_DIR$/myIdeaTest/myIdeaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myMethodtest/myMethodtest.iml" filepath="$PROJECT_DIR$/myMethodtest/myMethodtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numberchange/numberchange.iml" filepath="$PROJECT_DIR$/numberchange/numberchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twoarray/twoarray.iml" filepath="$PROJECT_DIR$/twoarray/twoarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/while/while.iml" filepath="$PROJECT_DIR$/while/while.iml" />
+    </modules>
+  </component>
+</project>
