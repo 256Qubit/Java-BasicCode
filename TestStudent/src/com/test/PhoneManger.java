@@ -54,18 +54,40 @@ public class PhoneManger {
     }
 
     public static void queryPhone(ArrayList<Phone> list) {
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println("[系统载入成功]");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
         if (list.size() == 0) {
             System.out.println("系统中无信息，请添加后再进行查看");
             return;
         }
-        System.out.println("手机货物编号  手机名称  手机品牌  手机价格  手机数量");
+        System.out.println("|手机货物编号\t\t\t|手机名称\t\t|手机品牌\t\t|手机价格\t\t|手机数量|");
         for (int i = 0; i < list.size(); i++) {
             Phone Ph = list.get(i);
-            System.out.println(Ph.getPhoneCode()+"    "+Ph.getPhName()+"    "+Ph.getPhBrand()+"    "+Ph.getPhPrice()+"    "+Ph.getPhNumber());
+            System.out.println("["+Ph.getPhoneCode()+"]"+"\t\t\t"+"["+Ph.getPhName()+"]"+"\t\t\t"+"["+Ph.getPhBrand()+"]"+"\t\t\t"+"["+Ph.getPhPrice()+"]"+"\t\t\t"+"["+Ph.getPhNumber()+"]");
         }
     }
 
     public static void updatePhone(ArrayList<Phone> list) {
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println("[系统载入成功]");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
+        System.out.println(".");
         System.out.println("请输入您要修改的手机货物编号：");
 
         Scanner sc = new Scanner(System.in);
@@ -153,6 +175,8 @@ public class PhoneManger {
 
             if (index == -1) {
 
+                System.out.println("[该编号已存在，请查证后再输入]");
+
                 break;
 
             }
@@ -182,12 +206,17 @@ public class PhoneManger {
         System.out.println("添加成功");
     }
     public static int getIndex(ArrayList<Phone> list,String PhCode){
+
         int index =-1;
+
         for (int i = 0; i < list.size(); i++) {
 
             Phone Ph = list.get(i);
+
             String code =Ph.getPhoneCode();
+
             if (code.equals(PhCode)) {
+
                 index = i;
             }
         }
