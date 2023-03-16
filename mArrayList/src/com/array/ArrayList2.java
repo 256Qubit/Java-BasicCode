@@ -16,6 +16,7 @@ public class ArrayList2 {
         list.add(stu1);
         list.add(stu2);
         list.add(stu3);
+
         for (int i = 0; i < list.size(); i++) {
             Student stu = list.get(i);
             System.out.println(stu.getName()+"..."+stu.getAge());
